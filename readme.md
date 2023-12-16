@@ -77,15 +77,23 @@ python setup.py build develop
 
 #### I-FID:
 
+```shell
 python FID.py --path /yourpath/ACTesting/images/yoursoftware
+```
 
 #### I-IS:
 
+```shell
 python IS.py --image_folder /yourpath/ACTesting/images/yoursoftware
+```
 
 #### R-P:
 
+use generateRPjson.ipynb to generate the RP files.
+
+```shell
 python RP.py --image_dir /yourpath/ACTesting/images/yoursoftware
+```
 
 #### Generate the scene graph:
 
