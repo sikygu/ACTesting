@@ -13,8 +13,8 @@ We follow the project [Scene-Graph-Benchmark](https://github.com/KaihuaTang/Scen
 ### Requirements:
 
 - Python <= 3.8
-- PyTorch >= 1.2 (Mine 1.4.0 (CUDA 10.1))
-- torchvision >= 0.4 (Mine 0.5.0 (CUDA 10.1))
+- PyTorch >= 1.2 (Mine 1.10.0 (CUDA 11.1))
+- torchvision >= 0.4 (Mine 0.11.0 (CUDA 11.1))
 - cocoapi
 - yacs
 - matplotlib
@@ -54,4 +54,12 @@ git clone https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch.git
 cd scene-graph-benchmark
 python setup.py build develop
 ```
+
+## Data
+
+- we use MS-COCO dataset to be the source seed. Download the coco2017val from [MS-COCO](http://mscoco.org/).
+
+- The testing data we generated can be download from the [Baidu Cloud](https://pan.baidu.com/s/1e4MMVy_Nh5f6gYXYdOsevQ?pwd=fv94) with code fv94.
+
+- We also provide the generated images from several software, which are also available from [Baidu Cloud](https://pan.baidu.com/s/1i6Bdvo0CCpXTPJOmHi1vaw?pwd=rdwx) with code rdwx. (The zip file is almost 7G)
 
